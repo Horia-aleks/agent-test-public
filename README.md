@@ -1,6 +1,6 @@
 # agent-test-public
 
-Public automation test repository created by Grok (the name "agent-test" was already taken by a private repo from the previous instruction).
+Public automation test repository.
 
 ## Files included
 - `prod.txt` – AWS credentials example
