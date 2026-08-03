@@ -1,0 +1,65 @@
+{
+  "patient": {
+    "patient_id": "PAT-00012345",
+    "name": "Jordan Example",
+    "date_of_birth": "1990-05-14",
+    "gender": "Male",
+    "contact": {
+      "phone": "+1-555-010-2040",
+      "email": "jordan.example@testmail.com"
+    },
+    "address": {
+      "street": "123 Example Avenue",
+      "city": "Springfield",
+      "country": "US"
+    }
+  },
+  "medical_record": {
+    "record_id": "MR-2026-000789",
+    "created_date": "2026-08-03",
+    "provider": {
+      "name": "Dr. Taylor Morgan",
+      "department": "General Medicine",
+      "facility": "Example Health Clinic"
+    },
+    "visit": {
+      "date": "2026-07-28",
+      "reason": "Routine health evaluation",
+      "notes": "Patient reports occasional fatigue. No acute complaints."
+    },
+    "vitals": {
+      "height_cm": 180,
+      "weight_kg": 78,
+      "blood_pressure": "120/80",
+      "heart_rate_bpm": 72,
+      "temperature_celsius": 36.7
+    },
+    "conditions": [
+      {
+        "name": "Seasonal allergies",
+        "status": "active"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Example Medication",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "lab_results": [
+      {
+        "test": "Complete Blood Count",
+        "date": "2026-07-28",
+        "result": "Within reference range"
+      }
+    ],
+    "follow_up": {
+      "recommended_date": "2027-01-28",
+      "instructions": "Continue routine monitoring."
+    }
+  }
+}
